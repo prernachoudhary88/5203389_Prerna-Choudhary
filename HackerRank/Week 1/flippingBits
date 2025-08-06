@@ -1,0 +1,5 @@
+long flippingBits(long n) {
+    unsigned long mask = 0xFFFFFFFF;
+    
+    return n ^ mask;
+}
